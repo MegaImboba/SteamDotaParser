@@ -28,9 +28,9 @@ def open_skins_table():
         if len(inputs) >= 2:
             # First is username, second is password
             inputs[0].clear()
-            inputs[0].send_keys('pepepepperoni1')
+            inputs[0].send_keys('LOGIN')
             inputs[1].clear()
-            inputs[1].send_keys('Mine2012craft')
+            inputs[1].send_keys('PASSWORD')
             print("Filled in username and password.")
         else:
             print("Could not find both username and password fields.")
